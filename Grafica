@@ -1,0 +1,28 @@
+from graphics import *
+ventana=GraphWin("Hola", 400,400)
+
+circulo=Circle(Point(40,40),40)
+circulo.setFill("black")
+circulo.draw(ventana)
+
+for i in range(0,56548675244):
+    for i in range(0,32):
+        time.sleep(.1)
+        circulo.move(10,10)
+    for i in range(0,32):
+        time.sleep(.1)
+        circulo.move(0,-10)
+    for i in range(0,32):
+        time.sleep(.1)
+        circulo.move(-10,10)
+    for i in range(0,32):
+        time.sleep(.1)
+        circulo.move(10,0)
+    for i in range(0,32):
+         time.sleep(.1)
+         circulo.move(-10,-10)
+
+
+
+
+time.sleep(5)
